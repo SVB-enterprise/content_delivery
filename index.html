@@ -2,22 +2,17 @@
 <html>
     <head>
         <title>The Little Lemon Restaurant</title>
+        <link rel="stylesheet" href="style.css"/>
     </head>
         <body>
             <h1>Our Menu</h1>
-            <h2>Falafel</h2>
+            <h2 id="header1">Falafel</h2>
             <p>Chickpea, herbs, spices.</p>
             <img src="falafel.jpeg" width="240" height="145" alt="A falafel">
             <h2>Salad</h2>
             <p>Lettuce, tomato , Mozarella. olive oil</p>
             <img src="salad.jpeg" width="240" height="145" alt="A greek Salad">
-            <br><br><a href="location.html">Our Location</a></br></br>
-            <style>
-                table, th, td {
-                    border: 1px solid black;
-                    border-collapse: collapse;
-                }
-            </style>
+            <div>
             <table>
             <tr>
                     <th>Dish</th>
@@ -32,14 +27,20 @@
                     <td>$12.89</td>
                 </tr>
             </table>
+            </div>
+            <div>
             <form>
-                <br><br><label>Username:</label>
+                <br><br><label id="input1">Username:</label>
                 <input type="text"><br>
-                <label>Password:</label>
+                <label id="input2">Password:</label>
                 <input type="text"><br>
-                <label>I agree to terms and conditions</label>
+                <a href="termsAndConditions.html"><label id="input3">I agree to terms and conditions</label></a>
                 <input type="radio"><br>
-                <input type="submit"><br>
+                <div id="submit">
+                <input type="submit">
+                </div>
             </form>
+            </div>
+            <div><a href="location.html">Our Location</a></div>
         </body>
 </html>

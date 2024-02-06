@@ -1,0 +1,37 @@
+h1 {
+    color:rgb(127, 4, 127);
+}
+h2 {
+    color:rgb(59, 100, 59);
+}
+#header1{
+    color: rgb(161, 50, 50,3.0);
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#input1{
+    color:blue;
+    text-decoration-line: underline ;
+    text-decoration-style: solid ;
+    text-decoration-thickness: 1px ;
+}
+
+#input2{
+    color:blue;
+    text-decoration-line: underline ;
+    text-decoration-style: solid ;
+    text-decoration-thickness: 1px ;
+}
+#input3{
+    color:blue;
+    text-decoration-line: underline ;
+    text-decoration-style: solid ;
+    text-decoration-thickness: 1px ;
+}
+
+#submit {
+    text-align:center;
+}
