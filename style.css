@@ -8,8 +8,9 @@ h2 {
     color: rgb(161, 50, 50,3.0);
 }
 table, th, td {
-    border: 1px solid black;
+    border: 1px solid rgb(170, 45, 45);
     border-collapse: collapse;
+    border-width: auto;
 }
 
 #input1{
